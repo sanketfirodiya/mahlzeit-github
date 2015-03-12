@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1E4EB9197C23B4008B9DD4 /* Mahlzeit.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB1E4EB8197C23B4008B9DD4 /* Mahlzeit.wav */; };
+		FB2F9C6A198DA63D00EB9D56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2F9C69198DA63D00EB9D56 /* Images.xcassets */; };
+		FB308FA4195F73EF001859E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FA3195F73EF001859E0 /* Foundation.framework */; };
+		FB308FA6195F73EF001859E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FA5195F73EF001859E0 /* CoreGraphics.framework */; };
+		FB308FA8195F73EF001859E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FA7195F73EF001859E0 /* UIKit.framework */; };
+		FB308FAE195F73EF001859E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB308FAC195F73EF001859E0 /* InfoPlist.strings */; };
+		FB308FB0195F73EF001859E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB308FAF195F73EF001859E0 /* main.m */; };
+		FB308FB4195F73EF001859E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB308FB3195F73EF001859E0 /* AppDelegate.m */; };
+		FB308FBD195F73EF001859E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FBC195F73EF001859E0 /* XCTest.framework */; };
+		FB308FBE195F73EF001859E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FA3195F73EF001859E0 /* Foundation.framework */; };
+		FB308FBF195F73EF001859E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FA7195F73EF001859E0 /* UIKit.framework */; };
+		FB308FC7195F73EF001859E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB308FC5195F73EF001859E0 /* InfoPlist.strings */; };
+		FB308FC9195F73EF001859E0 /* MahlzeitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB308FC8195F73EF001859E0 /* MahlzeitTests.m */; };
+		FB308FD3195F7416001859E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD2195F7416001859E0 /* AudioToolbox.framework */; };
+		FB308FD5195F741A001859E0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD4195F741A001859E0 /* CFNetwork.framework */; };
+		FB308FDD195F7443001859E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD6195F7443001859E0 /* CoreLocation.framework */; };
+		FB308FDE195F7443001859E0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD7195F7443001859E0 /* libz.dylib */; };
+		FB308FDF195F7443001859E0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD8195F7443001859E0 /* MobileCoreServices.framework */; };
+		FB308FE0195F7443001859E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FD9195F7443001859E0 /* QuartzCore.framework */; };
+		FB308FE1195F7443001859E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FDA195F7443001859E0 /* Security.framework */; };
+		FB308FE3195F7443001859E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FDC195F7443001859E0 /* SystemConfiguration.framework */; };
+		FB308FE5195F744B001859E0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB308FE4195F744B001859E0 /* Parse.framework */; };
+		FB4F635F1989F5A800AA7041 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4F635E1989F5A800AA7041 /* MBProgressHUD.m */; };
+		FB5552CC195F84FC002AB26E /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5552CB195F84FC002AB26E /* iPhone.storyboard */; };
+		FB5552D2195F888C002AB26E /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5552D1195F888C002AB26E /* SignupViewController.m */; };
+		FB860CD9197ABC9100F55B02 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB860CD6197ABC9100F55B02 /* Montserrat-Bold.ttf */; };
+		FB860CDA197ABC9100F55B02 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB860CD7197ABC9100F55B02 /* Montserrat-Regular.ttf */; };
+		FB860CDB197ABC9100F55B02 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB860CD8197ABC9100F55B02 /* OFL.txt */; };
+		FB860CDE197ABD3900F55B02 /* FontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB860CDD197ABD3900F55B02 /* FontHelper.m */; };
+		FB887B0D195F9A0500773DA2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB887B0C195F9A0500773DA2 /* MainViewController.m */; };
+		FB88CBF11968E14C0067D574 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB88CBF01968E14C0067D574 /* ShareViewController.m */; };
+		FB88CBF31968EA050067D574 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB88CBF21968EA050067D574 /* Social.framework */; };
+		FB88CBF51968FEFF0067D574 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB88CBF41968FEFF0067D574 /* MessageUI.framework */; };
+		FBD72FC71A7C580A00B9CECB /* ParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD72FC61A7C580A00B9CECB /* ParseHelper.m */; };
+		FBDC6FA31969BB1800E047F2 /* NSMutableArray+Mahlzeit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDC6FA21969BB1800E047F2 /* NSMutableArray+Mahlzeit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB308FC0195F73EF001859E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB308F98195F73EE001859E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB308F9F195F73EF001859E0;
+			remoteInfo = Mahlzeit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B9CD6DB570343DA923E3DEC /* libPods-Mahlzeit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mahlzeit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1E4EB8197C23B4008B9DD4 /* Mahlzeit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mahlzeit.wav; sourceTree = "<group>"; };
+		FB2F9C69198DA63D00EB9D56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB308FA0195F73EF001859E0 /* Mahlzeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mahlzeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB308FA3195F73EF001859E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB308FA5195F73EF001859E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB308FA7195F73EF001859E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB308FAB195F73EF001859E0 /* Mahlzeit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mahlzeit-Info.plist"; sourceTree = "<group>"; };
+		FB308FAD195F73EF001859E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB308FAF195F73EF001859E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB308FB1195F73EF001859E0 /* Mahlzeit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mahlzeit-Prefix.pch"; sourceTree = "<group>"; };
+		FB308FB2195F73EF001859E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB308FB3195F73EF001859E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB308FBB195F73EF001859E0 /* MahlzeitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahlzeitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB308FBC195F73EF001859E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB308FC4195F73EF001859E0 /* MahlzeitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MahlzeitTests-Info.plist"; sourceTree = "<group>"; };
+		FB308FC6195F73EF001859E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB308FC8195F73EF001859E0 /* MahlzeitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MahlzeitTests.m; sourceTree = "<group>"; };
+		FB308FD2195F7416001859E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB308FD4195F741A001859E0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FB308FD6195F7443001859E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB308FD7195F7443001859E0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FB308FD8195F7443001859E0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FB308FD9195F7443001859E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB308FDA195F7443001859E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB308FDC195F7443001859E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB308FE4195F744B001859E0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FB4F635D1989F5A800AA7041 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FB4F635E1989F5A800AA7041 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FB5552CB195F84FC002AB26E /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		FB5552D0195F888C002AB26E /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		FB5552D1195F888C002AB26E /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		FB860CD6197ABC9100F55B02 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FB860CD7197ABC9100F55B02 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FB860CD8197ABC9100F55B02 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FB860CDC197ABD3900F55B02 /* FontHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontHelper.h; path = ../FontHelper.h; sourceTree = "<group>"; };
+		FB860CDD197ABD3900F55B02 /* FontHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontHelper.m; path = ../FontHelper.m; sourceTree = "<group>"; };
+		FB887B0A195F8D3900773DA2 /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		FB887B0B195F9A0500773DA2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FB887B0C195F9A0500773DA2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FB88CBEF1968E14C0067D574 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		FB88CBF01968E14C0067D574 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		FB88CBF21968EA050067D574 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FB88CBF41968FEFF0067D574 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FBD72FC51A7C580A00B9CECB /* ParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseHelper.h; sourceTree = "<group>"; };
+		FBD72FC61A7C580A00B9CECB /* ParseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseHelper.m; sourceTree = "<group>"; };
+		FBDC6FA11969BB1800E047F2 /* NSMutableArray+Mahlzeit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Mahlzeit.h"; sourceTree = "<group>"; };
+		FBDC6FA21969BB1800E047F2 /* NSMutableArray+Mahlzeit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Mahlzeit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB308F9D195F73EF001859E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB88CBF51968FEFF0067D574 /* MessageUI.framework in Frameworks */,
+				FB88CBF31968EA050067D574 /* Social.framework in Frameworks */,
+				FB308FDD195F7443001859E0 /* CoreLocation.framework in Frameworks */,
+				FB308FDE195F7443001859E0 /* libz.dylib in Frameworks */,
+				FB308FDF195F7443001859E0 /* MobileCoreServices.framework in Frameworks */,
+				FB308FE0195F7443001859E0 /* QuartzCore.framework in Frameworks */,
+				FB308FE1195F7443001859E0 /* Security.framework in Frameworks */,
+				FB308FE5195F744B001859E0 /* Parse.framework in Frameworks */,
+				FB308FE3195F7443001859E0 /* SystemConfiguration.framework in Frameworks */,
+				FB308FA6195F73EF001859E0 /* CoreGraphics.framework in Frameworks */,
+				FB308FD5195F741A001859E0 /* CFNetwork.framework in Frameworks */,
+				FB308FD3195F7416001859E0 /* AudioToolbox.framework in Frameworks */,
+				FB308FA8195F73EF001859E0 /* UIKit.framework in Frameworks */,
+				FB308FA4195F73EF001859E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB308FB8195F73EF001859E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB308FBD195F73EF001859E0 /* XCTest.framework in Frameworks */,
+				FB308FBF195F73EF001859E0 /* UIKit.framework in Frameworks */,
+				FB308FBE195F73EF001859E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB308F97195F73EE001859E0 = {
+			isa = PBXGroup;
+			children = (
+				FB308FA9195F73EF001859E0 /* Mahlzeit */,
+				FB308FC2195F73EF001859E0 /* MahlzeitTests */,
+				FB308FA2195F73EF001859E0 /* Frameworks */,
+				FB308FA1195F73EF001859E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB308FA1195F73EF001859E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB308FA0195F73EF001859E0 /* Mahlzeit.app */,
+				FB308FBB195F73EF001859E0 /* MahlzeitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB308FA2195F73EF001859E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB88CBF41968FEFF0067D574 /* MessageUI.framework */,
+				FB88CBF21968EA050067D574 /* Social.framework */,
+				FB308FE4195F744B001859E0 /* Parse.framework */,
+				FB308FD6195F7443001859E0 /* CoreLocation.framework */,
+				FB308FD7195F7443001859E0 /* libz.dylib */,
+				FB308FD8195F7443001859E0 /* MobileCoreServices.framework */,
+				FB308FD9195F7443001859E0 /* QuartzCore.framework */,
+				FB308FDA195F7443001859E0 /* Security.framework */,
+				FB308FDC195F7443001859E0 /* SystemConfiguration.framework */,
+				FB308FD4195F741A001859E0 /* CFNetwork.framework */,
+				FB308FD2195F7416001859E0 /* AudioToolbox.framework */,
+				FB308FA3195F73EF001859E0 /* Foundation.framework */,
+				FB308FA5195F73EF001859E0 /* CoreGraphics.framework */,
+				FB308FA7195F73EF001859E0 /* UIKit.framework */,
+				FB308FBC195F73EF001859E0 /* XCTest.framework */,
+				9B9CD6DB570343DA923E3DEC /* libPods-Mahlzeit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB308FA9195F73EF001859E0 /* Mahlzeit */ = {
+			isa = PBXGroup;
+			children = (
+				FBD72FC41A7C580A00B9CECB /* Model */,
+				FB2F9C69198DA63D00EB9D56 /* Images.xcassets */,
+				FB4F635C1989F5A800AA7041 /* MBProgressHUD */,
+				FB860CDC197ABD3900F55B02 /* FontHelper.h */,
+				FB860CDD197ABD3900F55B02 /* FontHelper.m */,
+				FB860CD4197ABC9100F55B02 /* Fonts */,
+				FB578AEE197789F60045F6BD /* Audio */,
+				FBDC6FA01969BB1800E047F2 /* Categories */,
+				FB887B0A195F8D3900773DA2 /* GlobalConstants.h */,
+				FB308FB2195F73EF001859E0 /* AppDelegate.h */,
+				FB308FB3195F73EF001859E0 /* AppDelegate.m */,
+				FB5552CB195F84FC002AB26E /* iPhone.storyboard */,
+				FB5552D0195F888C002AB26E /* SignupViewController.h */,
+				FB5552D1195F888C002AB26E /* SignupViewController.m */,
+				FB887B0B195F9A0500773DA2 /* MainViewController.h */,
+				FB887B0C195F9A0500773DA2 /* MainViewController.m */,
+				FB88CBEF1968E14C0067D574 /* ShareViewController.h */,
+				FB88CBF01968E14C0067D574 /* ShareViewController.m */,
+				FB308FAA195F73EF001859E0 /* Supporting Files */,
+			);
+			path = Mahlzeit;
+			sourceTree = "<group>";
+		};
+		FB308FAA195F73EF001859E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB308FAB195F73EF001859E0 /* Mahlzeit-Info.plist */,
+				FB308FAC195F73EF001859E0 /* InfoPlist.strings */,
+				FB308FAF195F73EF001859E0 /* main.m */,
+				FB308FB1195F73EF001859E0 /* Mahlzeit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB308FC2195F73EF001859E0 /* MahlzeitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB308FC8195F73EF001859E0 /* MahlzeitTests.m */,
+				FB308FC3195F73EF001859E0 /* Supporting Files */,
+			);
+			path = MahlzeitTests;
+			sourceTree = "<group>";
+		};
+		FB308FC3195F73EF001859E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB308FC4195F73EF001859E0 /* MahlzeitTests-Info.plist */,
+				FB308FC5195F73EF001859E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB4F635C1989F5A800AA7041 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F635D1989F5A800AA7041 /* MBProgressHUD.h */,
+				FB4F635E1989F5A800AA7041 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FB578AEE197789F60045F6BD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FB1E4EB8197C23B4008B9DD4 /* Mahlzeit.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		FB860CD4197ABC9100F55B02 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FB860CD5197ABC9100F55B02 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FB860CD5197ABC9100F55B02 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				FB860CD6197ABC9100F55B02 /* Montserrat-Bold.ttf */,
+				FB860CD7197ABC9100F55B02 /* Montserrat-Regular.ttf */,
+				FB860CD8197ABC9100F55B02 /* OFL.txt */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		FBD72FC41A7C580A00B9CECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBD72FC51A7C580A00B9CECB /* ParseHelper.h */,
+				FBD72FC61A7C580A00B9CECB /* ParseHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBDC6FA01969BB1800E047F2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC6FA11969BB1800E047F2 /* NSMutableArray+Mahlzeit.h */,
+				FBDC6FA21969BB1800E047F2 /* NSMutableArray+Mahlzeit.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB308F9F195F73EF001859E0 /* Mahlzeit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB308FCC195F73EF001859E0 /* Build configuration list for PBXNativeTarget "Mahlzeit" */;
+			buildPhases = (
+				FB308F9C195F73EF001859E0 /* Sources */,
+				FB308F9D195F73EF001859E0 /* Frameworks */,
+				FB308F9E195F73EF001859E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mahlzeit;
+			productName = Mahlzeit;
+			productReference = FB308FA0195F73EF001859E0 /* Mahlzeit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB308FBA195F73EF001859E0 /* MahlzeitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB308FCF195F73EF001859E0 /* Build configuration list for PBXNativeTarget "MahlzeitTests" */;
+			buildPhases = (
+				FB308FB7195F73EF001859E0 /* Sources */,
+				FB308FB8195F73EF001859E0 /* Frameworks */,
+				FB308FB9195F73EF001859E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB308FC1195F73EF001859E0 /* PBXTargetDependency */,
+			);
+			name = MahlzeitTests;
+			productName = MahlzeitTests;
+			productReference = FB308FBB195F73EF001859E0 /* MahlzeitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB308F98195F73EE001859E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.webawesome;
+				TargetAttributes = {
+					FB308F9F195F73EF001859E0 = {
+						DevelopmentTeam = UMWTWMN2C7;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					FB308FBA195F73EF001859E0 = {
+						TestTargetID = FB308F9F195F73EF001859E0;
+					};
+				};
+			};
+			buildConfigurationList = FB308F9B195F73EE001859E0 /* Build configuration list for PBXProject "Mahlzeit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB308F97195F73EE001859E0;
+			productRefGroup = FB308FA1195F73EF001859E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB308F9F195F73EF001859E0 /* Mahlzeit */,
+				FB308FBA195F73EF001859E0 /* MahlzeitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB308F9E195F73EF001859E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB860CDB197ABC9100F55B02 /* OFL.txt in Resources */,
+				FB1E4EB9197C23B4008B9DD4 /* Mahlzeit.wav in Resources */,
+				FB2F9C6A198DA63D00EB9D56 /* Images.xcassets in Resources */,
+				FB860CDA197ABC9100F55B02 /* Montserrat-Regular.ttf in Resources */,
+				FB860CD9197ABC9100F55B02 /* Montserrat-Bold.ttf in Resources */,
+				FB308FAE195F73EF001859E0 /* InfoPlist.strings in Resources */,
+				FB5552CC195F84FC002AB26E /* iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB308FB9195F73EF001859E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB308FC7195F73EF001859E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB308F9C195F73EF001859E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5552D2195F888C002AB26E /* SignupViewController.m in Sources */,
+				FB308FB4195F73EF001859E0 /* AppDelegate.m in Sources */,
+				FB308FB0195F73EF001859E0 /* main.m in Sources */,
+				FB88CBF11968E14C0067D574 /* ShareViewController.m in Sources */,
+				FB860CDE197ABD3900F55B02 /* FontHelper.m in Sources */,
+				FB887B0D195F9A0500773DA2 /* MainViewController.m in Sources */,
+				FBDC6FA31969BB1800E047F2 /* NSMutableArray+Mahlzeit.m in Sources */,
+				FBD72FC71A7C580A00B9CECB /* ParseHelper.m in Sources */,
+				FB4F635F1989F5A800AA7041 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB308FB7195F73EF001859E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB308FC9195F73EF001859E0 /* MahlzeitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB308FC1195F73EF001859E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB308F9F195F73EF001859E0 /* Mahlzeit */;
+			targetProxy = FB308FC0195F73EF001859E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB308FAC195F73EF001859E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB308FAD195F73EF001859E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB308FC5195F73EF001859E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB308FC6195F73EF001859E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB308FCA195F73EF001859E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB308FCB195F73EF001859E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB308FCD195F73EF001859E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mahlzeit/Mahlzeit-Prefix.pch";
+				INFOPLIST_FILE = "Mahlzeit/Mahlzeit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "561f83af-23e6-4101-8adf-717354f6aa3b";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB308FCE195F73EF001859E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mahlzeit/Mahlzeit-Prefix.pch";
+				INFOPLIST_FILE = "Mahlzeit/Mahlzeit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "561f83af-23e6-4101-8adf-717354f6aa3b";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB308FD0195F73EF001859E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mahlzeit.app/Mahlzeit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mahlzeit/Mahlzeit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MahlzeitTests/MahlzeitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB308FD1195F73EF001859E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mahlzeit.app/Mahlzeit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mahlzeit/Mahlzeit-Prefix.pch";
+				INFOPLIST_FILE = "MahlzeitTests/MahlzeitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB308F9B195F73EE001859E0 /* Build configuration list for PBXProject "Mahlzeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB308FCA195F73EF001859E0 /* Debug */,
+				FB308FCB195F73EF001859E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB308FCC195F73EF001859E0 /* Build configuration list for PBXNativeTarget "Mahlzeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB308FCD195F73EF001859E0 /* Debug */,
+				FB308FCE195F73EF001859E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB308FCF195F73EF001859E0 /* Build configuration list for PBXNativeTarget "MahlzeitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB308FD0195F73EF001859E0 /* Debug */,
+				FB308FD1195F73EF001859E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB308F98195F73EE001859E0 /* Project object */;
+}
