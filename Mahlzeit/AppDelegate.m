@@ -12,12 +12,16 @@
 #import "SignupViewController.h"
 #import "MainViewController.h"
 
+// Include your own ParseConstants file which stores kParseApplicationId and kParseClientKey.
+// To signup on Parse and get create an account for your app, check out https://parse.com
+#import "ParseConstants.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Parse setApplicationId:@"YOUR_APP_ID"
-                  clientKey:@"YOUR_CLIENT_ID"];
+    [Parse setApplicationId:kParseApplicationId
+                  clientKey:kParseClientKey];
     
     //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self registerForPushNotifications];
